@@ -3,12 +3,12 @@
 
 - Cuándo hacerlo: Se debe configurar al inicio de un proyecto para evitar problemas futuros con archivos no deseados en el repositorio.
 
-- Cómo configurarlo: Puedes incluir patrones de archivos o directorios que deseas ignorar. Ejemplo básico:
-# Ignorar archivos de log
+- Cómo configurarlo: Se pueden incluir patrones de archivos o directorios que deseas ignorar. Ejemplo básico:
+## Ignorar archivos de log
 *.log
 
-# Ignorar directorios de dependencias
+## Ignorar directorios de dependencias
 node_modules/
 
-# Ignorar archivos de configuración del IDE
+## Ignorar archivos de configuración del IDE
 .vscode/
