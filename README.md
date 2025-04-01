@@ -16,3 +16,6 @@ node_modules/
 
 ### Ignorar archivos de configuración del IDE
 .vscode/
+
+# Respuestas 
+- Punto 3)g) del ejercicio 2: Los valores son iguales porque se trata de la misma direccion de memoria, ya que al puntero se le asigna la direccion de la variable que queremos apuntar. La siguiente dirrecion de memoria que se pide mostrar es diferente ya que se refiere a la dirrecion de memoria del propio puntero por lo cual es diferente a las otras 2 direccciones de memoria.
