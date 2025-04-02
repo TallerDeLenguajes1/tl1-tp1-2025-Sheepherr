@@ -1,22 +1,24 @@
 #include <stdio.h>
 
-int devolverCuadrado (int num);
+void devolverCuadrado (int *num);
 
 int main () {
 
-    int num, num2;
+    int num, *num2;
+    num2 = &num;
 
     printf("Ingrese el numero que desea elevar al cuadrado: ");
     scanf("%d", &num);
 
-    num2 = devolverCuadrado(num);
-
-    printf("El cuadrado de %d es: %d", num, num2);
+    devolverCuadrado(num2);
 
     return 0;
 }
 
-int devolverCuadrado (int num) {
+void devolverCuadrado (int *num) {
 
-    return num*num;
+    int result;
+    result = *num * *num;
+
+    printf("El cuadrado del numero %d es: %d", *num, result);
 }
